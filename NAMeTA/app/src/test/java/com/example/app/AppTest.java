@@ -48,7 +48,7 @@ public class ExampleInstrumentedTest {
         InputStream credentials = appContext.getResources().openRawResource(R.raw.credentials_dialogflow);
         GoogleSheets googleSheets = new GoogleSheets(credentials);
         Sheets sheets = googleSheets.createSheetsService();
-        String spreadSheetId = "1vFxAt97DXEJwIEZC3yleHeWR7VCHdOze14B9IbTu-vk";
+        String spreadSheetId = "";
 
         googleSheets.appendValue(
                 sheets,
